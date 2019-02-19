@@ -11,10 +11,12 @@
     "argparse": "~1.0.0",
     "shuffle-array": "~1.0.0"
   },
+  "license": "MIT",
   "name": "game-plus",
   "scripts": {
-    "compile": "tsc -p .",
+    "compile": "rm -r lib && tsc -p .",
     "format": "prettier --write .prettierrc '**/*.{json,ts}'",
     "play": "node lib/play.js"
-  }
+  },
+  "version": "0.0.0"
 }

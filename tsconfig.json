@@ -2,6 +2,7 @@
   "compileOnSave": false,
   "exclude": ["src/schematics/**/*"],
   "compilerOptions": {
+    "declaration": true,
     "downlevelIteration": true,
     "module": "commonjs",
     "moduleResolution": "node",
