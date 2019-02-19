@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/argparse": "~1.0.0",
+    "@types/node": "~11.9.0",
+    "@types/shuffle-array": "~0.0.0",
+    "prettier": "~1.15.0",
+    "source-map-support": "~0.5.0",
+    "typescript": "~3.3.0"
+  },
+  "dependencies": {
+    "argparse": "~1.0.0",
+    "shuffle-array": "~1.0.0"
+  },
+  "name": "game-plus",
+  "scripts": {
+    "compile": "tsc -p .",
+    "format": "prettier --write .prettierrc '**/*.{json,ts}'",
+    "play": "node lib/play.js"
+  }
+}

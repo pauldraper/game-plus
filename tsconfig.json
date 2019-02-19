@@ -1,0 +1,14 @@
+{
+  "compileOnSave": false,
+  "exclude": ["src/schematics/**/*"],
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "strict": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "target": "es2017"
+  }
+}
