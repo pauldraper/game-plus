@@ -1,4 +1,7 @@
 {
+  "bugs": {
+    "url": "https://github.com/pauldraper/game-plus/issues"
+  },
   "devDependencies": {
     "@types/argparse": "~1.0.0",
     "@types/node": "~11.9.0",
@@ -11,7 +14,18 @@
     "argparse": "~1.0.0",
     "shuffle-array": "~1.0.0"
   },
+  "keywords": [
+    "ai",
+    "game",
+    "minimax",
+    "turn-based"
+  ],
+  "homepage": "https://github.com/pauldraper/game-plus",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauldraper/game-plus.git"
+  },
   "name": "game-plus",
   "scripts": {
     "compile": "rm -r lib && tsc -p .",
