@@ -1,4 +1,5 @@
 import { Score, Player, Game, Actor } from './game';
+import * as shuffleArray from 'shuffle-array';
 
 export class Minimax<State, Move> implements Actor<State, Move> {
   constructor(private readonly _game: Game<State, Move>) {}
@@ -9,7 +10,7 @@ export class Minimax<State, Move> implements Actor<State, Move> {
       return { move: null, score };
     }
 
-    const moves = this._game.moves(state, player);
+    const moves = shuffleArray(this._game.moves(state, player));
 
     let best: Result<Move>;
     switch (player) {
