@@ -32,6 +32,10 @@ export const game: Game<State, Move> = {
   },
 
   moves(state: State) {
+    if (this.score(state)) {
+      return [];
+    }
+
     const moves: Move[] = [];
     for (let i = 0; i < SIZE; i++) {
       for (let j = 0; j < SIZE; j++) {
@@ -44,6 +48,13 @@ export const game: Game<State, Move> = {
   },
 
   score(state: State) {
+    let turns = 0;
+    for (let i = 0; i < SIZE; i++) {
+      for (let j = 0; j < SIZE; j++) {
+        turns += +(state[i][j] !== null);
+      }
+    }
+
     for (let di = 0; di <= 1; di++) {
       for (let dj = 0; dj <= 1; dj++) {
         if (di === 0 && dj === 0) {
@@ -55,15 +66,16 @@ export const game: Game<State, Move> = {
               .fill(undefined)
               .map((_, n) => state[i + di * n][j + dj * n]);
             if (cells.every(cell => cell === Player.MAX)) {
-              return Infinity;
+              return 1 / turns;
             }
             if (cells.every(cell => cell === Player.MIN)) {
-              return -Infinity;
+              return -1 / turns;
             }
           }
         }
       }
     }
+
     return 0;
   },
 };

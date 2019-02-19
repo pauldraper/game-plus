@@ -5,17 +5,17 @@ export class Minimax<State, Move> implements Actor<State, Move> {
   constructor(private readonly _game: Game<State, Move>) {}
 
   private _alphaBeta(state: State, { min, max }: Range, player: Player): Result<Move> {
-    const score = this._game.score(state);
-    if (!isFinite(score)) {
-      return { move: null, score };
+    const moves = this._game.moves(state, player);
+    if (!moves.length) {
+      return { move: null, score: this._game.score(state) };
     }
 
-    const moves = shuffleArray(this._game.moves(state, player));
+    shuffleArray(moves);
 
     let best: Result<Move>;
     switch (player) {
       case Player.MAX:
-        best = { move: null, score };
+        best = { move: null, score: -Infinity };
         for (const move of moves) {
           const result = this._alphaBeta(
             this._game.move(state, move, player),
@@ -33,7 +33,7 @@ export class Minimax<State, Move> implements Actor<State, Move> {
         }
         break;
       case Player.MIN:
-        best = { move: null, score };
+        best = { move: null, score: Infinity };
         for (const move of moves) {
           const result = this._alphaBeta(
             this._game.move(state, move, player),
