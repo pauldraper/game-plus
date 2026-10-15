@@ -1,0 +1,9 @@
+{
+  "description": "Open B2. It is adjacent to two mines, so only B2 opens.",
+  "layout": [
+    "*...",
+    "..*.",
+    "....",
+    "...."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Open A5. The two separated mines provide numbered boundaries.",
+  "layout": [
+    "*....",
+    ".....",
+    "..*..",
+    ".....",
+    "....."
+  ]
+}

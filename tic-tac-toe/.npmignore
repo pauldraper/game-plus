@@ -1,0 +1,11 @@
+*.tgz
+*.log
+*.tsbuildinfo
+coverage/
+
+.editorconfig
+.prettierrc
+tsconfig.json
+yarn.lock
+
+/src/

@@ -1,0 +1,14 @@
+{
+  "description": "Reachable position: column 1 is full. Try 1, then 2; the rejected move must not consume R's turn.",
+  "rows": [
+    "Y......",
+    "R......",
+    "Y......",
+    "R......",
+    "Y......",
+    "R......"
+  ],
+  "player": "R",
+  "status": "playing",
+  "winner": null
+}

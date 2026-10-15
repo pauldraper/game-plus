@@ -1,0 +1,23 @@
+{
+  "name": "othello",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Othello CLI coding challenge for interview preparation.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node scripts/test.cjs starter",
+    "example": "node example/src/cli.js",
+    "test:example": "node scripts/test.cjs example",
+    "verify:example": "node scripts/test.cjs example verification",
+    "test:setup": "node scripts/test.cjs starter setup",
+    "test:rules": "node scripts/test.cjs starter rules",
+    "test:game": "node scripts/test.cjs starter game",
+    "test:cli": "node scripts/test.cjs starter cli",
+    "practice:new": "node ../scripts/create-attempt.cjs othello"
+  },
+  "license": "MIT"
+}

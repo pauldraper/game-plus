@@ -1,0 +1,11 @@
+{
+  "description": "Open A1 to lose; B1 is shown as an incorrect flag.",
+  "layout": [
+    "*..",
+    "...",
+    "..*"
+  ],
+  "flags": [
+    "B1"
+  ]
+}

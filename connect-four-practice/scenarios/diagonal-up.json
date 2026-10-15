@@ -1,0 +1,14 @@
+{
+  "description": "Reachable position: R drops into column 5 to complete a diagonal.",
+  "rows": [
+    "R.YY...",
+    "R.RR.YR",
+    "YYRY.RY",
+    "RYRR.YR",
+    "RRYRYYY",
+    "YRYRRYY"
+  ],
+  "player": "R",
+  "status": "playing",
+  "winner": null
+}

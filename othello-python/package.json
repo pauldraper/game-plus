@@ -1,0 +1,22 @@
+{
+    "name": "othello-python",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Standard-library Python Othello coding challenge with a separate example.",
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "start": "node scripts/run.cjs start",
+        "example": "node scripts/run.cjs example",
+        "test": "node scripts/run.cjs test",
+        "test:setup": "node scripts/run.cjs test:setup",
+        "test:rules": "node scripts/run.cjs test:rules",
+        "test:game": "node scripts/run.cjs test:game",
+        "test:cli": "node scripts/run.cjs test:cli",
+        "test:example": "node scripts/run.cjs test:example",
+        "verify:example": "node scripts/run.cjs verify:example",
+        "practice:new": "node scripts/run.cjs practice:new"
+    },
+    "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Open C3. The bottom-right zero opens every safe square and wins.",
+  "layout": [
+    "*..",
+    "...",
+    "..."
+  ]
+}

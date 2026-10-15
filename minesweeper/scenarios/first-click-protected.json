@@ -1,0 +1,8 @@
+{
+  "description": "A1 initially contains a mine; the supplied helper relocates it on the first reveal.",
+  "layout": [
+    "*.",
+    ".."
+  ],
+  "firstRevealPending": true
+}

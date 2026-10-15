@@ -1,0 +1,11 @@
+{
+  "description": "Reveal B2 to win without flagging the remaining mine.",
+  "layout": [
+    "*.",
+    ".."
+  ],
+  "revealed": [
+    "B1",
+    "A2"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "include": ["othello-python"],
+  "exclude": ["**/__pycache__", "**/.venv", "attempts"],
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic",
+  "executionEnvironments": [
+    {
+      "root": "othello-python",
+      "extraPaths": ["othello-python"]
+    }
+  ]
+}

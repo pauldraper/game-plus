@@ -1,0 +1,8 @@
+{
+  "description": "Open A1 to demonstrate a mine hit. Fixed scenarios do not protect the first reveal.",
+  "layout": [
+    "*..",
+    "...",
+    "..*"
+  ]
+}

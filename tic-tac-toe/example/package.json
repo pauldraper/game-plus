@@ -1,0 +1,13 @@
+{
+  "name": "tic-tac-toe-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -p .",
+    "start": "node ../scripts/start.cjs example",
+    "play": "node lib/play.js",
+    "test": "node ../scripts/test.cjs example",
+    "test:ai": "node ../scripts/test.cjs example ai"
+  },
+  "license": "MIT"
+}

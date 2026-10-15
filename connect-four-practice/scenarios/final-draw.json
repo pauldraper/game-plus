@@ -1,0 +1,14 @@
+{
+  "description": "Reachable position: Y drops into column 6 to complete a draw.",
+  "rows": [
+    "RYRRY.R",
+    "YYYRYRY",
+    "RYYYRRR",
+    "RRRYRYR",
+    "RYYYRYR",
+    "YRRRYYY"
+  ],
+  "player": "Y",
+  "status": "playing",
+  "winner": null
+}

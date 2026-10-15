@@ -1,0 +1,14 @@
+{
+  "description": "Reachable position: Y drops into column 6 to win on the 42nd disc.",
+  "rows": [
+    "RYRYY.Y",
+    "RRYRRRY",
+    "YYRRYRY",
+    "RYYYRRR",
+    "YRRYRYY",
+    "RYYRRRY"
+  ],
+  "player": "Y",
+  "status": "playing",
+  "winner": null
+}

@@ -1,0 +1,54 @@
+{
+  "bugs": {
+    "url": "https://github.com/pauldraper/game-plus/issues"
+  },
+  "devDependencies": {
+    "@types/argparse": "~1.0.0",
+    "@types/node": "^22",
+    "@types/shuffle-array": "~0.0.0",
+    "prettier": "~1.15.0",
+    "source-map-support": "~0.5.0",
+    "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "argparse": "~1.0.0",
+    "shuffle-array": "~1.0.0"
+  },
+  "keywords": [
+    "ai",
+    "game",
+    "minimax",
+    "turn-based"
+  ],
+  "homepage": "https://github.com/pauldraper/game-plus",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauldraper/game-plus.git"
+  },
+  "name": "tic-tac-toe",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "node scripts/typecheck.cjs",
+    "compile": "tsc -p .",
+    "compile:example": "tsc -p example",
+    "start": "node scripts/start.cjs starter",
+    "example": "node scripts/start.cjs example",
+    "verify:example": "node scripts/test.cjs example ai",
+    "test": "node scripts/test.cjs starter",
+    "test:setup": "node scripts/test.cjs starter setup",
+    "test:rules": "node scripts/test.cjs starter rules",
+    "test:game": "node scripts/test.cjs starter game",
+    "test:cli": "node scripts/test.cjs starter cli",
+    "test:ai": "node scripts/test.cjs starter ai",
+    "test:example": "node scripts/test.cjs example",
+    "test:example:ai": "node scripts/test.cjs example ai",
+    "practice:new": "node ../scripts/create-attempt.cjs tic-tac-toe",
+    "format": "prettier --config ../.prettierrc --write 'src/**/*.ts' 'tests/*.js' 'scripts/*.cjs' package.json tsconfig.json",
+    "play": "node scripts/start.cjs starter"
+  },
+  "version": "0.1.0"
+}

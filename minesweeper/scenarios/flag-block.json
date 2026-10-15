@@ -1,0 +1,11 @@
+{
+  "description": "A false flag blocks A1. Open C3, remove flag A1, then reveal A1 to win.",
+  "layout": [
+    "...",
+    "...",
+    "..."
+  ],
+  "flags": [
+    "A1"
+  ]
+}

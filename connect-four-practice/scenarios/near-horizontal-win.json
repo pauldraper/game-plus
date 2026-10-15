@@ -1,0 +1,14 @@
+{
+  "description": "Reachable position: R drops into column 3 to join the two sides of a four-disc line.",
+  "rows": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......Y",
+    "RR.R.YY"
+  ],
+  "player": "R",
+  "status": "playing",
+  "winner": null
+}

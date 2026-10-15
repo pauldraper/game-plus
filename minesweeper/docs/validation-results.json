@@ -1,0 +1,52 @@
+{
+  "javascriptSyntaxCheckedFiles": 17,
+  "setup": {
+    "exitCode": 0,
+    "tests": 30,
+    "pass": 30,
+    "fail": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "example": {
+    "exitCode": 0,
+    "tests": 92,
+    "pass": 92,
+    "fail": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "practice": {
+    "exitCode": 1,
+    "tests": 92,
+    "pass": 36,
+    "fail": 56,
+    "skipped": 0,
+    "todo": 0
+  },
+  "verification": {
+    "exitCode": 0
+  },
+  "exampleWithoutPracticeFiles": {
+    "exitCode": 0,
+    "tests": 92,
+    "pass": 92
+  },
+  "freshArchiveExtraction": true,
+  "nodeVersion": "v22.16.0",
+  "platform": "Linux x86_64",
+  "independentVerification": {
+    "layouts": 511,
+    "adjacencyComparisons": 4599,
+    "neighborComparisons": 4599,
+    "revealSetComparisons": 45990,
+    "exhaustiveActionComparisons": 45990,
+    "simulatedGames": 400,
+    "simulatedActions": 8399,
+    "invalidActions": 3364,
+    "wins": 46,
+    "losses": 354,
+    "fullCliReplays": 8,
+    "largeRegionCells": 16384
+  }
+}

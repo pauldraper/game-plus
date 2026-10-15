@@ -1,0 +1,19 @@
+{
+  "name": "connect-four-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node ../scripts/test.cjs example",
+    "test:setup": "node ../scripts/test.cjs example setup",
+    "test:rules": "node ../scripts/test.cjs example rules",
+    "test:game": "node ../scripts/test.cjs example game",
+    "test:cli": "node ../scripts/test.cjs example cli",
+    "verify": "node ../scripts/test.cjs example verification"
+  },
+  "license": "MIT"
+}

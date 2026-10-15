@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "tic-tac-toe/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "python.analysis.extraPaths": ["${workspaceFolder}/othello-python"]
+}

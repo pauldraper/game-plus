@@ -1,0 +1,14 @@
+{
+  "name": "othello-python-example",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node ../scripts/run.cjs example",
+    "test": "node ../scripts/run.cjs test:example",
+    "verify": "node ../scripts/run.cjs verify:example"
+  },
+  "license": "MIT"
+}

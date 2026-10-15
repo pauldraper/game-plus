@@ -1,0 +1,23 @@
+{
+  "name": "connect-four-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free CLI rules challenge with a complete implementation in example/.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "example": "node example/src/cli.js",
+    "test": "node scripts/test.cjs starter",
+    "test:setup": "node scripts/test.cjs starter setup",
+    "test:rules": "node scripts/test.cjs starter rules",
+    "test:game": "node scripts/test.cjs starter game",
+    "test:cli": "node scripts/test.cjs starter cli",
+    "test:example": "node scripts/test.cjs example",
+    "verify:example": "node scripts/test.cjs example verification",
+    "practice:new": "node ../scripts/create-attempt.cjs connect-four-practice"
+  },
+  "license": "MIT"
+}

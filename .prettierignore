@@ -1,0 +1,17 @@
+**/node_modules/
+**/lib/
+**/dist/
+**/build/
+**/coverage/
+**/.nyc_output/
+**/.cache/
+**/test-results/
+**/playwright-report/
+attempts/
+**/__pycache__/
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/htmlcov/
